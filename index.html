@@ -12,17 +12,20 @@
             box-sizing: border-box;
         }
         header {
-            background: url('/images/keyvisual.jpg') no-repeat center center;
+            background: url('/images/keyvisual.jpg') no-repeat center center; 
             background-size: cover;
             height: 300px;
             color: #fff;
-            text-align: center;
             display: flex;
             align-items: center;
             justify-content: center;
         }
         header h1 {
             margin: 0;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5); /* 背景画像上のテキストの可読性を高めるための半透明の黒色背景 */
+            border-radius: 10px; /* 角を少し丸める */
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* テキストの影を付ける */
         }
         nav ul {
             list-style: none;
@@ -52,7 +55,7 @@
     </style>
 </head>
 <body>
-    <header style="background: url('/images/keyvisual.jpg') no-repeat center center; background-size: cover; height: 300px;">
+    <header>
         <h1>鯨乃ももんのウェブサイト</h1>
     </header>
     <nav>
